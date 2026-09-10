@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TP_01.MainPage"
+    BackgroundColor="Black">
+
+    <VerticalStackLayout
+        Padding="22,25"
+        Spacing="12">
+
+        <Label
+            Text="Aplicação Teste"
+            FontSize="22"
+            FontAttributes="Bold"
+            HorizontalOptions="Center"
+            Margin="0,0,0,22"/>
+
+        <!-- ID -->
+        <Grid
+            ColumnDefinitions="55,*"
+            ColumnSpacing="8">
+
+            <Label
+                Grid.Column="0"
+                Text="ID:"
+                VerticalOptions="Center"/>
+
+            <Entry
+                Grid.Column="1"
+                x:Name="txtId"/>
+
+        </Grid>
+
+        <!-- Senha -->
+        <Grid
+            ColumnDefinitions="55,*"
+            ColumnSpacing="8">
+
+            <Label
+                Grid.Column="0"
+                Text="Pass"
+                VerticalOptions="Center"/>
+
+            <Entry
+                Grid.Column="1"
+                x:Name="txtPass"
+                IsPassword="True"/>
+
+        </Grid>
+
+        <BoxView
+            HeightRequest="50"
+            BackgroundColor="Transparent"/>
+
+        <Button
+            Text="OK"
+            Clicked="OnOkClicked"/>
+
+        <Button
+            Text="Limpar"
+            Clicked="OnLimparClicked"/>
+
+        <Button
+            Text="Créditos"
+            Clicked="OnCreditosClicked"/>
+
+    </VerticalStackLayout>
+
+</ContentPage>
