@@ -1,0 +1,27 @@
+# Build
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS
+.vs/
+
+# MAUI/Plataformas
+*.apk
+*.aab
+*.exe
+*.dll
+*.pdb
+*.app
+*.ipa
+*.log
+
+# Mac
+.DS_Store
+
+# Outros
+*.db
+*.sqlite
