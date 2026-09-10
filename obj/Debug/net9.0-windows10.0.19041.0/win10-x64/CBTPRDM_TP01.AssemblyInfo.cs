@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CBTPRDM_TP01")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+de07bc9bb2f49fbf49f5a0355da82de89cafc5e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("CBTPRDM_TP01")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CBTPRDM_TP01")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
